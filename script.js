@@ -7,7 +7,7 @@ let sum;
 	}else if(num===2){
 		return num2;
 	}else{
-		for(let i=0;i<=num;i++){
+		for(let i=0;i<num-2;i++){
 		sum = num1 + num2
 		num1 = num2;
 		num2 = sum;
